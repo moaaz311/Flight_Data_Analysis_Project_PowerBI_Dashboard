@@ -1,12 +1,16 @@
-# ✈️ Flight Delay Analysis Dashboard
+✈️ Flight Delay Analysis Dashboard
 
-## 📊 Project Overview
+📊 Project Overview
 This project focuses on analyzing flight delay data using **Power BI**.  
 The goal is to transform raw flight data into meaningful insights through data cleaning, modeling, and interactive dashboards.
 
----
 
-## 🎯 Objectives
+📊 Dashboard
+![Dashboard](1(1).png)
+
+
+
+🎯 Objectives
 - Analyze flight delays and cancellations  
 - Identify main causes of delays  
 - Compare airline performance  
@@ -14,7 +18,7 @@ The goal is to transform raw flight data into meaningful insights through data c
 
 ---
 
-## 🧹 Data Cleaning
+🧹 Data Cleaning
 The dataset was cleaned and prepared by:
 - Removing duplicates  
 - Handling missing values  
@@ -23,35 +27,12 @@ The dataset was cleaned and prepared by:
 
 ---
 
-## 🏗️ Data Modeling (Star Schema)
+
+🏗️ Data Modeling (Star Schema)
 A **Star Schema** was implemented to optimize performance and analysis.
-
-### 🔹 Fact Table
-**Fact_FlightDelays**
-- Arrival Delay  
-- Departure Delay  
-- Air Time  
-- Distance  
-- Carrier Delay  
-- Weather Delay  
-- NAS Delay  
-- Security Delay  
-- Late Aircraft Delay  
-
-### 🔹 Dimension Tables
-- **Dim_Carrier** → Airline information  
-- **Dim_OriginAirport** → Departure airport  
-- **Dim_DestAirport** → Destination airport  
-- **Dim_Date** → Date and time attributes  
-
-Relationships were created between fact and dimension tables to enable efficient filtering and aggregation.
-
----
-
 ## 📐 Data Model
-![Data Model](./data_model.png)
+![Data Model](1(2).png)
 
----
 
 ## 📊 Key KPIs
 - Average Arrival Delay  
